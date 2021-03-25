@@ -8,6 +8,8 @@ const App = () => {
             <img src={tsLogoPath} alt="TS logo"/>
             <img src={reactLogoPath} className="svg" alt="React logo"/>
             <h1>Hello <code>React, Typescript, Bebal</code> and <code>Webpack</code></h1>
+            <p><code>App Mode: {process.env.NODE_ENV}</code></p>
+            <p><code>Owner Mode: {process.env.name}</code></p>
         </div>
     )
 }
