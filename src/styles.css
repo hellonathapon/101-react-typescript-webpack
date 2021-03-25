@@ -1,7 +1,13 @@
 body {
-    background: #333;
+    background: #000;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 h1 {
-    color: crimson;
+    color: #FFF;
+}
+
+.svg {
+    width: 200px;
+    height: 200px;
 }
